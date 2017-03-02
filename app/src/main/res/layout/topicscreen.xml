@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/topbanner"
+        android:id="@+id/imageView6" />
+
+    <TextView android:layout_width="250dp"
+        android:layout_height="78dp"
+        android:text="  Select a Topic to Learn Vocabulary!"
+        android:padding="5dp"
+        android:paddingLeft="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="28dp"/>
+
+    <Button
+        android:text="Greetings"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:id="@+id/btnGoToGreetings" />
+
+    <Button
+        android:text="Numbers"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:id="@+id/btnNumbers" />
+
+    <Button
+        android:text="Food"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:id="@+id/btnGoToFood" />
+
+    <Button
+        android:text="Animals"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnGoToAnimals" />
+
+    <Button
+        android:text="Travel"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:id="@+id/btnGoToTravel" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="491dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/bottombanner"
+        android:id="@+id/imageView7"
+        android:layout_weight="1.49" />
+
+</LinearLayout>

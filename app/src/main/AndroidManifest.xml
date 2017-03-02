@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="haagcolorado.joseph.edu.learnmalayalamnow">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Screen2"
+            android:label="@string/screen2Title"
+            />
+
+        <!--Alphabet Screen -->
+        <activity android:name=".AlphabetLesson"
+            android:label="Alphabet Lesson"/>
+        <!--Topics Screen -->
+        <activity android:name="TopicScreen"
+            android:label="Topic Screen"/>
+        <!--Review Screen -->
+        <activity android:name="ReviewScreen"
+            android:label="Review Screen"/>
+
+        <!--Quiz Screen -->
+        <activity android:name = "QuizScreen"
+            android:label="Quiz Screen" />
+
+        <activity android:name= "ProgressScreen"
+            android:label="Progress Screen"/>
+
+       <activity android:name=".TopicGreetingsScreen"
+           android:label="Greetings Screen"/>
+
+      <activity android:name=".NumbersScreen"
+          android:label="Numbers Screen" />
+
+        <activity android:name=".FoodScreen"
+            android:label="Food Screen" />
+
+        <!--Load Progress Screen -->
+
+
+    </application>
+
+</manifest>

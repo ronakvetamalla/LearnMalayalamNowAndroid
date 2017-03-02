@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="362dp"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_gravity="center">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="134dp"
+            app:srcCompat="@drawable/topbanner"
+            android:id="@+id/imageView4"
+            android:padding="10dp" />
+
+
+        <TextView android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="Learn the Alphabet"
+            android:padding="5dp"
+            android:paddingLeft="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="28dp"/>
+
+        <Button
+            android:text="Randomize Order"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:padding="10dp"
+            android:id="@+id/btnRandom" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/lettercha"
+            android:id="@+id/btnLetter"
+            android:layout_weight="0.05"
+            android:background="#000000"
+            android:padding="5dp"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:text="English Sound: "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtEnglishLetterIs"
+            android:layout_weight="0.05"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:padding="10dp"/>
+
+        <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="60dp"
+        android:paddingBottom="0dp"
+        android:layout_alignParentBottom="false">
+
+        <android.support.v7.widget.AppCompatImageButton
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/backbutton"
+        android:id="@+id/btnBackLetter"
+            android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+            android:paddingLeft="50dp"
+            android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+            android:paddingRight="50dp"
+            android:layout_margin="40dp"
+         />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/nextbutton"
+            android:id="@+id/btnNextLetter"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:padding="10dp"
+            android:layout_margin="30dp"
+            />
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="406dp"
+            android:layout_height="143dp"
+            app:srcCompat="@drawable/bottombanner"
+            android:id="@+id/imageView10" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

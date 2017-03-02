@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        app:srcCompat="@drawable/topbanner"
+        android:id="@+id/topBannerReview" />
+
+    <TextView
+        android:text="        Review: Grammar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/txtReviewWelcome" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerGrammarChoices"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="90dp"
+        android:paddingBottom="0dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:text="I"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/txtI"
+            android:paddingLeft="30dp"
+            android:textSize="15dp"
+            android:layout_weight="0.10" />
+
+        <TextView
+            android:text="We "
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/txtWe"
+            android:textSize="15dp"
+            android:layout_weight="0.42" />
+    </LinearLayout>
+
+     <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="90dp"
+        android:paddingBottom="0dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:text="You "
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/txtYou"
+            android:paddingLeft="30dp"
+            android:textSize="15dp"
+            android:layout_weight="0.10" />
+
+        <TextView
+            android:text=" "
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/txtYou2"
+            android:textSize="15dp"
+            android:layout_weight="0.42" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="90dp"
+        android:paddingBottom="0dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:text="He "
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/txtHe"
+            android:paddingLeft="30dp"
+            android:textSize="15dp"
+            android:layout_weight="0.10" />
+
+        <TextView
+            android:text="They "
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/txtThey"
+            android:textSize="15dp"
+            android:layout_weight="0.42" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="70dp"
+        android:paddingBottom="0dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:text="She "
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/txtShe"
+            android:paddingLeft="30dp"
+            android:textSize="15dp"
+            android:layout_weight="0.10" />
+
+        <TextView
+            android:text=""
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/txtShe2"
+            android:textSize="15dp"
+            android:layout_weight="0.42" />
+    </LinearLayout>
+
+
+</LinearLayout>

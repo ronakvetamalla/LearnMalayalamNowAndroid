@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        app:srcCompat="@drawable/topbanner"
+        android:id="@+id/imgTopbannerQuiz" />
+     <TextView
+        android:text="Alphabet Quiz: Match the Letter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+         android:paddingTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/txtQuizWelcome" />
+    <TextView
+        android:text="Current Letter: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:paddingTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/txtQuizPrompt" />
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:paddingTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/txtQuizAnswer" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:layout_width="78dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/alpgabet1"
+            android:id="@+id/imgQuiz1" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:layout_width="78dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/alpgabet1"
+            android:id="@+id/imgQuiz2" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/letterma"
+            android:id="@+id/imgQuiz3"
+            android:layout_weight="0.48" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/letterka"
+            android:id="@+id/imgQuiz4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/scorebar"
+            android:id="@+id/imgQuizScore" />
+
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtQuizScore"
+            android:text=": 0"
+            android:textSize="60dp"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:paddingTop="20dp"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/nextbutton"
+
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imgBtnQuizNext"
+        android:layout_weight="0.68" />
+
+</LinearLayout>

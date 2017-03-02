@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/topbanner"
+        android:id="@+id/imageView11" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:id="@+id/txtFoddBanner"
+        android:layout_gravity="center_horizontal"
+        android:text="    Food Vocab"
+        android:textSize="28dp"
+        />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/indianfood"
+        android:id="@+id/imageViewIndianFood"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:text="Mayalam: "
+        android:textSize="20dp"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:id="@+id/txtFoodMalayalam"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:text="English: "
+        android:textSize="20dp"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:id="@+id/txtFoodEnglish"/>
+
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/nextbutton"
+        android:id="@+id/btnNextFood"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="350dp"
+        android:padding="0dp"
+        android:layout_margin="30dp" />
+
+
+</LinearLayout>
